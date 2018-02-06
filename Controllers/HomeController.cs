@@ -25,7 +25,14 @@ namespace Parcels.Controllers
     newParcel.SetWeight(int.Parse(Request.Query["weight"]));
     int total = newParcel.CostToShip(newParcel.GetHeight(), newParcel.GetDepth(), newParcel.GetWidth(), newParcel.GetWeight());
     newParcel.SetTotal(total);
-    return View("ShippingTotal", newParcel);
+    if (total == 0)
+    {
+      return View("ShippingCalc");
+    }
+    else
+    {
+      return View("ShippingTotal", newParcel);
+    }
 
     // int height = int.Parse(Request.Query["height"]);
     // newParcel.SetHeight(height);

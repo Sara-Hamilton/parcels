@@ -10,19 +10,19 @@
     <form action='/shipping_total'>
       <div class='form-group'>
         <label for='height'>Package height in inches:</label>
-        <input id='height' name='height' class='form-control' type='number'>
+        <input id='height' name='height' class='form-control' type='number' required='true' min='1'>
       </div>
       <div class='form-group'>
         <label for='depth'>Package depth in inches:</label>
-        <input id='depth' name='depth' class='form-control' type='number'>
+        <input id='depth' name='depth' class='form-control' type='number' required='true' min='1'>
       </div>
       <div class='form-group'>
         <label for='width'>Package width in inches:</label>
-        <input id='width' name='width' class='form-control' type='number'>
+        <input id='width' name='width' class='form-control' type='number' required='true' min='1'>
       </div>
       <div class='form-group'>
         <label for='weight'>Package weight in lbs.:</label>
-        <input id='weight' name='weight' class='form-control' type='number'>
+        <input id='weight' name='weight' class='form-control' type='number' required='true' min='1'>
       </div>
       <button type='submit' class='btn'>Go!</button>
     </form>

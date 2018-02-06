@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{D2BB59C5-4EE3-415B-87BF-1BA8E161A162}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/ShippingCalc.cshtml">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="22" Column="46" />
+      <File FileName="Models/Parcel.cs" Line="65" Column="9" />
+      <File FileName="Views/Home/ShippingCalc.cshtml" Line="13" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.parcels PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
